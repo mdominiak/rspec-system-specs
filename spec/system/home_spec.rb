@@ -7,6 +7,6 @@ describe 'Home page' do
 
   it 'shows greeting' do
     visit root_url
-    expect(page).to have_content 'Hello World'
+    expect(page).to have_content 'Hello Universe'
   end
 end
